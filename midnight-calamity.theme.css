@@ -1,0 +1,72 @@
+/**
+ * @name Midnight (Calamity Edition)
+ * @description A dark Discord theme based on the Calamity Mod aesthetic.
+ * @author refact0r & Gemini
+ * @version 2.1.1
+*/
+
+@import url("https://refact0r.github.io/midnight-discord/build/midnight.css");
+
+body {
+  --font: "figtree";
+  --gap: 12px;
+  --animations: on;
+
+  /* DMS Icon - Brimstone Fire */
+  --dms-icon-color-before: #8a3c3c; /* Dried Blood */
+  --dms-icon-color-after: #ff4646; /* Brimstone Red */
+  --dms-background-color: linear-gradient(
+    70deg,
+    #ff4646,
+    #b45ef7,
+    #df9d1b
+  ); /* Brimstone to Cosmic to Auric */
+}
+
+:root {
+  --colors: on;
+
+  /* Text Colors - Auric Silk & Exo Silver */
+  --text-0: #141414; /* Void Black on colored elements */
+  --text-1: #f9e5c7; /* Auric Silk (Headings) */
+  --text-2: #ff4646; /* Brimstone Red (Important) */
+  --text-3: #e0e0e0; /* Exo Silver (Body text) */
+  --text-4: #8a3c3c; /* Muted Red (Icons) */
+  --text-5: #4c1111; /* Deep Crimson (Timestamps) */
+
+  /* Background Colors - The Void & Ash */
+  --bg-1: #320a0a; /* Darkest Red */
+  --bg-2: #1a1a1a; /* Deep Charcoal */
+  --bg-3: #0f0f0f; /* Absolute Void */
+  --bg-4: #141414; /* Main Ashen Background */
+
+  --hover: hsla(0, 75%, 60%, 0.1);
+  --active: hsla(0, 75%, 60%, 0.2);
+
+  /* Accents - Cosmic & Profaned */
+  --accent-1: #b45ef7; /* Cosmic Purple (Links) */
+  --accent-2: #ff4646; /* Brimstone Red */
+  --accent-3: #df9d1b; /* Auric Gold */
+  --accent-4: #ffbf00; /* Bright Auric */
+  --accent-5: #f9e5c7; /* Auric Silk */
+
+  --mention: linear-gradient(
+    to right,
+    rgba(180, 94, 247, 0.1) 40%,
+    transparent
+  );
+
+  /* Status Indicators */
+  --online: #73f973; /* Sulphurous Green */
+  --dnd: #ff003c; /* Profaned Flame */
+  --idle: #df9d1b; /* Auric Gold */
+  --streaming: #b45ef7; /* Cosmic Purple */
+  --offline: #4c566a; /* Ashen Gray */
+
+  /* Base Re-mapping */
+  --red-2: #ff003c;
+  --green-2: #73f973;
+  --blue-2: #3ec1d3; /* Abyss Teal */
+  --yellow-2: #df9d1b;
+  --purple-2: #b45ef7;
+}
